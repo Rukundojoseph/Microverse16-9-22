@@ -24,14 +24,33 @@
     </header>
     <section id="main-section">
       
-      <iframe id='video'  width="727" height="409" src="https://www.youtube.com/embed/zie_xSa2oRc" title="How To Sell A Product - Sell Anything To Anyone With This Unusual Method" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <form id='form' action='https://www.freecodecamp.com/email-submit'>
-        <input type='email' name='email' id='email' placeholder='Email ...'>
-        <input type='submit' value='submit' id='submit'>
-        
+      <div id="frame_video">
+        <iframe id='video'  width="727" height="409" src="https://www.youtube.com/embed/zie_xSa2oRc" title="How To Sell A Product - Sell Anything To Anyone With This Unusual Method" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <form id='form' action='https://www.freecodecamp.com/email-submit' class="container col-12 col-sm-5">
+        <p>Add your email for notification</p>
+        <input type='email' class="form-control mt-2" name='email' id='email' placeholder='Email ...'>
+        <input type='submit' class="form-control mt-2 btn btn-success" value='submit' id='submit'> <br>       
       </form>
-      <div id="products"></div>
-      <div id="prices"></div>
+      <div id="products">
+        <div class="row">
+           <div class="col-12 col-sm-4">            
+            <img class='responsive-image' src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41fVP+e7CzS._SY300_SX300_.jpg">
+            <p>Product-1</p>
+          </div>
+           <div class="col-12 col-sm-4">            
+            <img class='responsive-image' src='https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51NceuvSAIL._AC_UY218_.jpg'>
+            <p>Product-2</p>
+          </div>
+           <div class="col-12 col-sm-4">            
+            <img class='responsive-image' src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5160SoMxXnL._AC_UY218_.jpg">
+            <p>Product-3</p>
+          </div>
+        </div>
+      </div>
+      <div id="prices">
+
+      </div>
     </section>
 
     <!--

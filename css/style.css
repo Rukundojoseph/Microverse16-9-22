@@ -26,3 +26,15 @@
         margin: 25px;
         margin-top: 100px;
     }
+
+    .responsive-image{
+        width: 350px;
+        height: 300px;
+    }
+    #frame_video{
+        width: 100%;
+        margin: auto 0;
+        display: block;
+        align-items: center;
+        padding-left: 20%;
+    }
